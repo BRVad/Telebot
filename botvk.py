@@ -5,7 +5,7 @@ import vk
 global token_vk
 
 
-token_vk = '69fdbd8b69fdbd8b69fdbd8b946990530e669fd69fdbd8b3434849b35dade86d1822671'
+token_vk = your_url
 session = vk.Session(access_token=token_vk)
 api = vk.API(session)
 
