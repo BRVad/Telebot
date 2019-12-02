@@ -2,7 +2,7 @@ import telebot
 import botvk
 
 
-token_tel = '1061438177:AAF-LO2jVpex46IxaErTMYyODpvfPHXsK3Y'
+token_tel = your_url
 bot = telebot.TeleBot(token_tel)
 keyboard1 = telebot.types.ReplyKeyboardMarkup(row_width=100, resize_keyboard=True)
 keyboard1.row('Привет', 'Пока', 'Ласт пост')
